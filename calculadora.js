@@ -39,4 +39,15 @@ function division(a, b) {
   return a / b;
 }
 
-// TODO: Implementar funciones mod, sqrt, pow
+/**
+ * 
+ * @param {*} a 
+ * @param {*} b 
+ * @returns 
+ */
+function mod(a, b) {
+  if (b === 0) throw new Exception("No se puede dividir por cero");
+  return a % b;
+}
+
+// TODO: Implementar funciones, sqrt, pow
